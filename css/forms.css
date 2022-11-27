@@ -1,0 +1,30 @@
+._ibg {
+  position: relative;
+}
+._ibg img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+._ibg_c img {
+  object-fit: contain;
+}
+._ibg_n img {
+  object-fit: none;
+}
+
+.bg-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.bg-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
